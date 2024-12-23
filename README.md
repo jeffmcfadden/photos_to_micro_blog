@@ -27,6 +27,10 @@ Create your `.env` file (and replace with your own variables):
 
     $ bundle install
 
+Create an initial `db.json` file:
+
+    { galleries: [] }
+
 ## Sync
 
     $ bundle exec ruby sync.rb
